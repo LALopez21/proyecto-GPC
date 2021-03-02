@@ -1,0 +1,82 @@
+body{
+	color:#FFFFFF; 
+	background-color:#070a12;
+}
+
+
+.btn{
+	color:#FFFFFF; 
+	background-color:#E03F3F;
+	border-color:#E03F3F;
+}
+
+.btn:hover{
+	color:inherit; 
+	background-color:transparent;
+	 border-color:inherit;
+}
+
+.carousel-inner img {
+		width: 10%;
+		height: 10%;
+		padding: 50px;
+		}	 
+
+
+.tarjeta-promo{
+    width: 100%;
+    max-width: 1200px;
+    height: 430px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+.tarjeta-promo .card{
+    width: 330px;
+    height: 430px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+
+}
+
+.tarjeta-promo .card:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.tarjeta-promo .card img{
+    width: 330px;
+    height: 220px;
+}
+
+.tarjeta-promo .card .icon{
+	width: 33px;
+	height: 33px;
+}
+
+
+.tarjeta-promo .card h1{
+    font-weight: 600;
+	color: #FFFFFF;
+}
+
+.tarjeta-promo .card p{
+    padding: 0 1rem;
+    font-size: 16px;
+    font-weight: 300;
+	color: #FFFFFF;
+}
+
+.tarjeta-promo .card a {
+    font-weight: 500;
+    text-decoration: none;
+    color: #3498db;
+}
+
+
